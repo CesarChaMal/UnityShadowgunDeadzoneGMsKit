@@ -1,0 +1,130 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+/out
+/build
+/classes
+/Debug
+/Release
+/x64
+/bin
+/gen
+/Obj
+/target
+/proguard
+/nbproject
+/captures
+
+# dependencies
+/node_modules
+/bower_components
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+*.project
+*.classpath
+*.springBeans
+*.iml
+*.suo
+*.db
+*.user
+*.csproj
+*.sdf
+.ipr
+.iws
+.c9/
+*.launch
+.settings/
+.sublime-workspace
+# IDE - VSCode
+.vscode/*
+.externalNativeBuild
+.vs
+.pydevproject
+import-summary.txt
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Compiled class file
+*.class
+*.ipch
+ipch
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+*.mtj
+*.tmp
+
+# Package Files #
+*.ear
+*.tar.gz
+*.rar
+#*.exe
+*.pdb
+*.manifest
+*.cache
+.cmd
+.mvn
+.gradle
+.nupkg
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#ignore thumbnails created by windows
+Thumbs.db
+
+# Spring Bootstrap artifacts
+dependency-reduced-pom.xml
+README.html
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+local.properties
+/typings
+*.swp
+*.swo
+*.obj
+*.exe
+*.pdb
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.ilk
+*.log
+*.dll
+*.lib
+*.sbr
+
+# System Files
+.DS_Store
+Thumbs.db
